@@ -75,6 +75,7 @@ img {
 section.home, section.auction {
   height: calc(100vh - 60px);
   align-items: center;
+  min-height: 700px;
 
   @media #{$mobile} {
     height: auto;
